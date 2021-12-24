@@ -1,4 +1,5 @@
-- name: Copy file with owner and permissions
+- 
+  name: Copy file with owner and permissions
   ansible.builtin.copy:
     src: /Jenkins/project/Dockerfile
     dest: /Jenkins/project/
